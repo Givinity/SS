@@ -8,7 +8,7 @@
       <option name="exitCodeBehavior" value="NEVER" />
       <option name="fileExtension" value="py" />
       <option name="immediateSync" value="true" />
-      <option name="name" value="" />
+      <option name="name" value="flake8" />
       <option name="output" value="" />
       <option name="outputFilters">
         <array />

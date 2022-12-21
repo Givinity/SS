@@ -7,3 +7,5 @@ def index(request):
     return HttpResponse('Страница')
 def pageNotFound(request, exception):
     return HttpResponseNotFound('<h1>Страница не найдена</h1>')
+def api(request):
+    pass
