@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from startpage.views import index, pageNotFound, api
+from startpage.views import index, pageNotFound, register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index, name='index'),
-    path('api', api)
+    path('', index, name='index'),
+    path('register', register)
 ]
 handler404 = pageNotFound
